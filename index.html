@@ -17,9 +17,8 @@
 
         .container {
             clear: both;
-            padding-bottom: 70px;
-            border-bottom-style: solid;
-            border-bottom-width: thin;
+            padding-bottom: 50px;
+
         }
 
         .navbar {
@@ -42,6 +41,50 @@
         a:visited {
             color: black;
         }
+
+        .home-banner {
+            background-size: cover !important;
+            background-position: 50% !important;
+            height: 750px;
+            align-items: center !important;
+            display: block !important;
+            color: #f8f9fa !important;
+            background: linear-gradient(180.43deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.80) 100%), url(img/spacex.jpg);
+        }
+
+        .home-banner-text {
+            padding-top: 325px;
+            padding-left: 100px;
+            font-family: "Segoe UI";
+            font-size: 64px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal
+        }
+
+        .home-banner-subtext {
+            font-family: 'Segoe UI';
+            padding-left: 100px;
+            margin-bottom: 30px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+
+        .contact-button {
+            font: bold 11px;
+            font-family: 'Segoe UI';
+            text-decoration: none;
+            background-color: #EEEEEE;
+            color: #333333;
+            margin-left: 100px;
+            padding: 10px 30px 10px 30px;
+        }
     </style>
 
     <div class="container">
@@ -63,6 +106,16 @@
             </div>
         </nav>
     </div>
+
+    <div class="home-banner">
+        <h1 class="home-banner-text">Supreme Rocket<br>Maintenance</h1>
+        <p class="home-banner-subtext">Your rocket is your $1,000,000,000 baby. We get that.</p>
+        <p>
+            <a class="contact-button" href="https://rocketman.learnwagtail.com/contact/">contact us</a>
+        </p>
+    </div>
+
+
 </body>
 
 </html>
